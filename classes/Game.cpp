@@ -177,7 +177,10 @@ void Game::findDropTarget(ImVec2 &pos)
 //
 void Game::drawFrame()
 {
-	scanForMouse();
+	// prevent further interaction after the game has ended
+	if (!ClassGame::gameOver) {
+		scanForMouse();
+	}
 
 	Grid* grid = getGrid();
 

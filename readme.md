@@ -1,11 +1,67 @@
-Using the provided code that can be downloaded from this github add a new class that inherits from game.cpp in the same way TicTacToe.cpp does and implement a working version of the game Connect 4. The game should be added as a fourth choice from the menu so the choices are Tic Tac Toe, Checkers, Othello and now Connect 4.
+# Tic-Tac-Toe Game
 
-The game must be playable by both by 2 people and vs. an AI. Your implementation must check for the winning condition, and display that on the right hand side the same way the current setup does for tic-tac-toe. The stopGame() method is expected to clean up and delete any memory allocated.
+This logger implementation was developed on the macOS platform. The entire project is built upon the starter code and materials provided by UCSC CMPM 123 course.
 
-Look at the new Grid.cpp class and see how it is used in Checkers.cpp for a good understanding about laying out a useable grid.
+## Game Modes and AI Design
 
-For extra credit, when a game piece is added to the board, make it animate into place instead of just appearing in it's final spot.
+In this assignment, the original AI mode from the previous version was simplified into a **Simple Mode**, and two more advanced AI difficulty levels were added: **Medium Mode** and **Hard Mode**.
 
-Graphic files are provided for the game pieces called yellow.png and red.png.
+The goal of this redesign was to clearly separate different levels of decision-making complexity and to demonstrate the progression of game AI techniques taught in class.
 
-For the submission, create a new github based on the above code-base and provide a link to that along with a complete readme.md on how your implementation works.
+### Simple Mode (Random)
+Simple Mode does not use any game-tree search or evaluation strategy.  
+The AI selects moves Random, serving as a baseline behavior and an easy opponent for players.
+
+### Medium Mode (Negamax Algorithm)
+Medium Mode uses the Negamax algorithm to evaluate possible game states.
+Capable of draw (or win, if human player is not optimizing); this should be true if algorithm is implemented correctly.
+This mode demonstrates full game-tree traversal and optimal play for a small search space like Tic-Tac-Toe.
+
+### Hard Mode (Alpha-Beta Pruning)
+Branches that cannot influence the final decision are pruned early. This significantly reduces the number of nodes evaluated without changing the final decision.
+Although Tic-Tac-Toe has a small state space, this mode demonstrates how pruning improves efficiency and scalability for larger games.
+
+
+## Building
+
+Build using CMake:
+
+```bash
+cd build
+cmake ..
+make
+```
+
+Run the compiled executable:
+
+```bash
+./demo
+```
+
+No external dependencies are required beyond the base environment.
+
+## Project Structure
+
+```
+.
+├── classes/
+│   ├── GameManager
+│   ├── Board / TicTacToe
+│   ├── Cell / Square
+│   └── UIManager
+├── imgui/
+│   └── ImGui library files
+├── resources/
+│   └── assets and resources
+├── build/
+│   └── compiled output
+├── Application.cpp
+├── Application.h
+├── CMakeLists.txt
+└── README.md
+```
+
+- `classes/` contains all gameplay and logic code
+- `imgui/` includes the ImGui UI framework
+- `resources/` stores visual and UI resources
+- `build/` contains compiled output

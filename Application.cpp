@@ -3,6 +3,8 @@
 #include "classes/TicTacToe.h"
 #include "classes/Checkers.h"
 #include "classes/Othello.h"
+#include "classes/Connect4.h"
+#include "classes/Connect4vsPlayer.h"
 
 namespace ClassGame {
         //
@@ -43,7 +45,25 @@ namespace ClassGame {
                         gameWinner = -1;
                     }
                 }
+
+                // Always allow restart or quit while a game exists
+                if (game) {
+                    if (ImGui::Button("Restart")) {
+                        game->stopGame();
+                        game->setUpBoard();
+                        gameOver = false;
+                        gameWinner = -1;
+                    }
+                    if (ImGui::Button("Quit")) {
+                        delete game;
+                        game = nullptr;
+                        gameOver = false;
+                        gameWinner = -1;
+                    }
+                }
+
                 if (!game) {
+                    // selection menu
                     if (ImGui::Button("Start Tic-Tac-Toe")) {
                         game = new TicTacToe();
                         game->setUpBoard();
@@ -56,17 +76,32 @@ namespace ClassGame {
                         game = new Othello();
                         game->setUpBoard();
                     }
+                    if (ImGui::Button("Start Connect 4 vs AI")) {
+                        game = new Connect4();
+                        game->setUpBoard();
+                    }
+                    if (ImGui::Button("Start Connect 4 vs Player")) {
+                        game = new Connect4vsPlayer();
+                        game->setUpBoard();
+                    }
                 } else {
-                    ImGui::Text("Current Player Number: %d", game->getCurrentPlayer()->playerNumber());
+                    const std::string *playerName = game->getCurrentPlayer()->name();
+                    if (playerName && !playerName->empty()) {
+                        ImGui::Text("Current Player: %s", playerName->c_str());
+                    } else {
+                        ImGui::Text("Current Player Number: %d", game->getCurrentPlayer()->playerNumber());
+                    }
                     ImGui::Text("Current Board State: %s", game->stateString().c_str());
                 }
                 ImGui::End();
 
                 ImGui::Begin("GameWindow");
                 if (game) {
-                    if (game->gameHasAI() && (game->getCurrentPlayer()->isAIPlayer() || game->_gameOptions.AIvsAI))
-                    {
-                        game->updateAI();
+                    if (!gameOver) {
+                        if (game->gameHasAI() && (game->getCurrentPlayer()->isAIPlayer() || game->_gameOptions.AIvsAI))
+                        {
+                            game->updateAI();
+                        }
                     }
                     game->drawFrame();
                 }

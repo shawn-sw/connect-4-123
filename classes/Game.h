@@ -48,7 +48,7 @@ class Game
 {
 public:
 	Game();
-	~Game();
+	virtual ~Game();
 
 	void startGame();
 
