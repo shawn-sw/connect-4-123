@@ -46,3 +46,7 @@ Build using CMake:
 cd build
 cmake ..
 make
+
+Run the compiled executable:
+
+./demo
