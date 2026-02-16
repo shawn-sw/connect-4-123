@@ -1,26 +1,42 @@
-# Tic-Tac-Toe Game
+# Connect 4 Game
 
-This logger implementation was developed on the macOS platform. The entire project is built upon the starter code and materials provided by UCSC CMPM 123 course.
+This Connect 4 implementation was developed on the macOS platform.  
+The project is built upon the starter code and framework provided by the UCSC CMPM 123 course.  
 
-## Game Modes and AI Design
+A new `Connect4.cpp` class was created inheriting from `game.cpp`, following the structure used in `TicTacToe.cpp`. The game is integrated into the main menu as a fourth selectable option alongside:
 
-In this assignment, the original AI mode from the previous version was simplified into a **Simple Mode**, and two more advanced AI difficulty levels were added: **Medium Mode** and **Hard Mode**.
+---
 
-The goal of this redesign was to clearly separate different levels of decision-making complexity and to demonstrate the progression of game AI techniques taught in class.
+## Game Modes and Features
 
-### Simple Mode (Random)
-Simple Mode does not use any game-tree search or evaluation strategy.  
-The AI selects moves Random, serving as a baseline behavior and an easy opponent for players.
+### Game Mode Selection
 
-### Medium Mode (Negamax Algorithm)
-Medium Mode uses the Negamax algorithm to evaluate possible game states.
-Capable of draw (or win, if human player is not optimizing); this should be true if algorithm is implemented correctly.
-This mode demonstrates full game-tree traversal and optimal play for a small search space like Tic-Tac-Toe.
+Connect 4 now supports two play modes:
 
-### Hard Mode (Alpha-Beta Pruning)
-Branches that cannot influence the final decision are pruned early. This significantly reduces the number of nodes evaluated without changing the final decision.
-Although Tic-Tac-Toe has a small state space, this mode demonstrates how pruning improves efficiency and scalability for larger games.
+- **vs Player** – Two players (Red and Yellow) take turns dropping pieces.
+- **vs AI** – A human player competes against an AI opponent.
 
+Players are displayed as **Red** and **Yellow** instead of Player 0 and Player 1.
+
+---
+
+## Animation (Extra Credit Feature)
+
+When a piece is placed:
+
+- The piece animates downward into position.
+- Instead of instantly appearing in its final slot, it visually “falls” into place.
+- This improves visual feedback and user experience.
+
+---
+
+## Additional Controls
+
+- **Restart Button** – Can be clicked at any time to reset the current match.
+- **Exit Button** – Returns the user to the main game selection menu.
+- After a win, input is disabled until Restart or Exit is selected.
+
+---
 
 ## Building
 
@@ -30,38 +46,3 @@ Build using CMake:
 cd build
 cmake ..
 make
-```
-
-Run the compiled executable:
-
-```bash
-./demo
-```
-
-No external dependencies are required beyond the base environment.
-
-## Project Structure
-
-```
-.
-├── classes/
-│   ├── GameManager
-│   ├── Board / TicTacToe
-│   ├── Cell / Square
-│   └── UIManager
-├── imgui/
-│   └── ImGui library files
-├── resources/
-│   └── assets and resources
-├── build/
-│   └── compiled output
-├── Application.cpp
-├── Application.h
-├── CMakeLists.txt
-└── README.md
-```
-
-- `classes/` contains all gameplay and logic code
-- `imgui/` includes the ImGui UI framework
-- `resources/` stores visual and UI resources
-- `build/` contains compiled output
