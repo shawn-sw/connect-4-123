@@ -1,8 +1,9 @@
 #pragma once
+#include <string>
 
 namespace ClassGame {
     extern bool gameOver;
-    extern int gameWinner;
+    extern std::string gameWinner;
 
     void GameStartUp();
     void RenderGame();

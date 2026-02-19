@@ -1,10 +1,10 @@
 CMakeFiles/demo.dir/classes/BitHolder.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/BitHolder.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/BitHolder.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Sprite.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Entity.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/BitHolder.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/BitHolder.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Sprite.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Entity.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -90,4 +90,4 @@ CMakeFiles/demo.dir/classes/BitHolder.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Bit.h
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Bit.h

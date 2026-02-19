@@ -1,9 +1,9 @@
 CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Sprite.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Sprite.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Entity.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Sprite.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Sprite.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Entity.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -89,7 +89,7 @@ CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/stb_image.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -800,4 +800,4 @@ CMakeFiles/demo.dir/classes/Sprite.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imgui_impl_opengl3_loader.h
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imgui_impl_opengl3_loader.h

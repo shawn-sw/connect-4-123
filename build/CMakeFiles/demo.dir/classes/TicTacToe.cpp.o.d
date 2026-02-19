@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/TicTacToe.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/TicTacToe.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Game.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/TicTacToe.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/TicTacToe.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Game.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -815,19 +815,19 @@ CMakeFiles/demo.dir/classes/TicTacToe.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/year_month_weekday.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/literals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Player.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Player.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Turn.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Bit.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Sprite.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Entity.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/../imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Turn.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Bit.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Sprite.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Entity.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/../imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/BitHolder.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/Grid.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/classes/ChessSquare.h
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/BitHolder.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/Grid.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/classes/ChessSquare.h

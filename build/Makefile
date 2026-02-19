@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shaoanwang/Desktop/connect-4-123-1
+CMAKE_SOURCE_DIR = /Users/shaoanwang/Desktop/cmpm123/connect-4-123
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shaoanwang/Desktop/connect-4-123-1/build
+CMAKE_BINARY_DIR = /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -117,9 +117,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles /Users/shaoanwang/Desktop/connect-4-123-1/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -667,30 +667,6 @@ classes/Connect4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4.cpp.s
 .PHONY : classes/Connect4.cpp.s
 
-classes/Connect4vsPlayer.o: classes/Connect4vsPlayer.cpp.o
-.PHONY : classes/Connect4vsPlayer.o
-
-# target to build an object file
-classes/Connect4vsPlayer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4vsPlayer.cpp.o
-.PHONY : classes/Connect4vsPlayer.cpp.o
-
-classes/Connect4vsPlayer.i: classes/Connect4vsPlayer.cpp.i
-.PHONY : classes/Connect4vsPlayer.i
-
-# target to preprocess a source file
-classes/Connect4vsPlayer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4vsPlayer.cpp.i
-.PHONY : classes/Connect4vsPlayer.cpp.i
-
-classes/Connect4vsPlayer.s: classes/Connect4vsPlayer.cpp.s
-.PHONY : classes/Connect4vsPlayer.s
-
-# target to generate assembly for a file
-classes/Connect4vsPlayer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/classes/Connect4vsPlayer.cpp.s
-.PHONY : classes/Connect4vsPlayer.cpp.s
-
 classes/Game.o: classes/Game.cpp.o
 .PHONY : classes/Game.o
 
@@ -1085,9 +1061,6 @@ help:
 	@echo "... classes/Connect4.o"
 	@echo "... classes/Connect4.i"
 	@echo "... classes/Connect4.s"
-	@echo "... classes/Connect4vsPlayer.o"
-	@echo "... classes/Connect4vsPlayer.i"
-	@echo "... classes/Connect4vsPlayer.s"
 	@echo "... classes/Game.o"
 	@echo "... classes/Game.i"
 	@echo "... classes/Game.s"

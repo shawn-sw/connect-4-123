@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/shaoanwang/Desktop/connect-4-123-1
-BuildDirectory: /Users/shaoanwang/Desktop/connect-4-123-1/build
+SourceDirectory: /Users/shaoanwang/Desktop/cmpm123/connect-4-123
+BuildDirectory: /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/opt/homebrew/bin/cmake" "/Users/shaoanwang/Desktop/connect-4-123-1"
+ConfigureCommand: "/opt/homebrew/bin/cmake" "/Users/shaoanwang/Desktop/cmpm123/connect-4-123"
 MakeCommand: /opt/homebrew/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

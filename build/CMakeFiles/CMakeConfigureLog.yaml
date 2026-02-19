@@ -20,8 +20,10 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -38,13 +40,13 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/uname"
+      - "/Users/shaoanwang/.deno/bin/uname"
+      - "/Users/shaoanwang/anaconda3/bin/uname"
+      - "/Users/shaoanwang/anaconda3/condabin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
@@ -53,8 +55,10 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -71,13 +75,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "message-v1"
     backtrace:
@@ -106,8 +105,10 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -124,13 +125,13 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/gmake"
+      - "/Users/shaoanwang/.deno/bin/gmake"
+      - "/Users/shaoanwang/anaconda3/bin/gmake"
+      - "/Users/shaoanwang/anaconda3/condabin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gmake"
@@ -147,12 +148,12 @@ events:
       - "/usr/local/share/dotnet/gmake"
       - "/Users/shaoanwang/.dotnet/tools/gmake"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/gmake"
-      - "/Users/shaoanwang/.deno/bin/gmake"
-      - "/Users/shaoanwang/anaconda3/bin/gmake"
-      - "/Users/shaoanwang/anaconda3/condabin/gmake"
       - "/Users/shaoanwang/share/dotnet/gmake"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/gmake"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/make"
+      - "/Users/shaoanwang/.deno/bin/make"
+      - "/Users/shaoanwang/anaconda3/bin/make"
+      - "/Users/shaoanwang/anaconda3/condabin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/make"
@@ -161,8 +162,10 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -179,13 +182,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -212,8 +210,10 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -230,13 +230,13 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/cc"
+      - "/Users/shaoanwang/.deno/bin/cc"
+      - "/Users/shaoanwang/anaconda3/bin/cc"
+      - "/Users/shaoanwang/anaconda3/condabin/cc"
       - "/opt/homebrew/bin/cc"
       - "/opt/homebrew/sbin/cc"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/cc"
@@ -245,8 +245,10 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -263,13 +265,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -297,8 +294,10 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -315,13 +314,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "message-v1"
     backtrace:
@@ -342,7 +336,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/4.2.1/CompilerIdC/a.out
+        /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/4.2.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -397,8 +391,10 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -414,15 +410,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -439,13 +435,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -467,8 +458,10 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -484,15 +477,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -509,13 +502,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -537,8 +525,10 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -554,15 +544,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -579,13 +569,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -607,8 +592,10 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -624,15 +611,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -649,13 +636,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -677,8 +659,10 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -694,15 +678,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -719,13 +703,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -747,8 +726,10 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -764,15 +745,15 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -789,13 +770,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -817,8 +793,10 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -834,14 +812,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/usr/bin/objcopy"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/objcopy"
+      - "/Users/shaoanwang/.deno/bin/objcopy"
+      - "/Users/shaoanwang/anaconda3/bin/objcopy"
+      - "/Users/shaoanwang/anaconda3/condabin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/objcopy"
@@ -857,15 +835,15 @@ events:
       - "/usr/local/share/dotnet/objcopy"
       - "/Users/shaoanwang/.dotnet/tools/objcopy"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/objcopy"
-      - "/Users/shaoanwang/.deno/bin/objcopy"
-      - "/Users/shaoanwang/anaconda3/bin/objcopy"
-      - "/Users/shaoanwang/anaconda3/condabin/objcopy"
       - "/Users/shaoanwang/share/dotnet/objcopy"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/objcopy"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -882,13 +860,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -910,8 +883,10 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -927,14 +902,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/usr/bin/readelf"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/readelf"
+      - "/Users/shaoanwang/.deno/bin/readelf"
+      - "/Users/shaoanwang/anaconda3/bin/readelf"
+      - "/Users/shaoanwang/anaconda3/condabin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/readelf"
@@ -950,15 +925,15 @@ events:
       - "/usr/local/share/dotnet/readelf"
       - "/Users/shaoanwang/.dotnet/tools/readelf"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/readelf"
-      - "/Users/shaoanwang/.deno/bin/readelf"
-      - "/Users/shaoanwang/anaconda3/bin/readelf"
-      - "/Users/shaoanwang/anaconda3/condabin/readelf"
       - "/Users/shaoanwang/share/dotnet/readelf"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/readelf"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -975,13 +950,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -1003,8 +973,10 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1020,14 +992,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/dlltool"
+      - "/Users/shaoanwang/.deno/bin/dlltool"
+      - "/Users/shaoanwang/anaconda3/bin/dlltool"
+      - "/Users/shaoanwang/anaconda3/condabin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/dlltool"
@@ -1043,15 +1015,15 @@ events:
       - "/usr/local/share/dotnet/dlltool"
       - "/Users/shaoanwang/.dotnet/tools/dlltool"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/dlltool"
-      - "/Users/shaoanwang/.deno/bin/dlltool"
-      - "/Users/shaoanwang/anaconda3/bin/dlltool"
-      - "/Users/shaoanwang/anaconda3/condabin/dlltool"
       - "/Users/shaoanwang/share/dotnet/dlltool"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1068,13 +1040,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -1096,8 +1063,10 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1113,14 +1082,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/usr/bin/addr2line"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/addr2line"
+      - "/Users/shaoanwang/.deno/bin/addr2line"
+      - "/Users/shaoanwang/anaconda3/bin/addr2line"
+      - "/Users/shaoanwang/anaconda3/condabin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/addr2line"
@@ -1136,15 +1105,15 @@ events:
       - "/usr/local/share/dotnet/addr2line"
       - "/Users/shaoanwang/.dotnet/tools/addr2line"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/addr2line"
-      - "/Users/shaoanwang/.deno/bin/addr2line"
-      - "/Users/shaoanwang/anaconda3/bin/addr2line"
-      - "/Users/shaoanwang/anaconda3/condabin/addr2line"
       - "/Users/shaoanwang/share/dotnet/addr2line"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/addr2line"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1161,13 +1130,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -1189,8 +1153,10 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1206,14 +1172,14 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/tapi"
+      - "/Users/shaoanwang/.deno/bin/tapi"
+      - "/Users/shaoanwang/anaconda3/bin/tapi"
+      - "/Users/shaoanwang/anaconda3/condabin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/tapi"
@@ -1229,15 +1195,15 @@ events:
       - "/usr/local/share/dotnet/tapi"
       - "/Users/shaoanwang/.dotnet/tools/tapi"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/tapi"
-      - "/Users/shaoanwang/.deno/bin/tapi"
-      - "/Users/shaoanwang/anaconda3/bin/tapi"
-      - "/Users/shaoanwang/anaconda3/condabin/tapi"
       - "/Users/shaoanwang/share/dotnet/tapi"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1254,13 +1220,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -1291,8 +1252,10 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1309,13 +1272,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "find-v1"
     backtrace:
@@ -1343,8 +1301,10 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1361,13 +1321,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
   -
     kind: "message-v1"
     backtrace:
@@ -1388,7 +1343,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
+        /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/4.2.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -1442,8 +1397,10 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1460,23 +1417,18 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
-      - "/opt/homebrew/bin/install_name_tool"
-      - "/opt/homebrew/sbin/install_name_tool"
-      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/install_name_tool"
-      - "/usr/local/bin/install_name_tool"
-      - "/System/Cryptexes/App/usr/bin/install_name_tool"
-    found: "/usr/bin/install_name_tool"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/install_name_tool"
+      - "/Users/shaoanwang/.deno/bin/install_name_tool"
+    found: "/Users/shaoanwang/anaconda3/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1493,13 +1445,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1510,8 +1457,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ"
-      binary: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ"
+      source: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI"
+      binary: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1523,18 +1470,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ'
+        Change Dir: '/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f889/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3f889.dir/build.make CMakeFiles/cmTC_3f889.dir/build
-        Building C object CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cdf8d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cdf8d.dir/build.make CMakeFiles/cmTC_cdf8d.dir/build
+        Building C object CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1546,13 +1493,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_3f889
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f889.dir/link.txt --verbose=1
+        Linking C executable cmTC_cdf8d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf8d.dir/link.txt --verbose=1
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_3f889 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_cdf8d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:dyld-1022.1
         BUILD 13:21:42 Nov 10 2023
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
@@ -1562,7 +1509,7 @@ events:
         Library search paths:
         	/usr/local/lib
         Framework search paths:
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -o cmTC_3f889
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -o cmTC_cdf8d
         
       exitCode: 0
   -
@@ -1606,18 +1553,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ']
+        ignore line: [Change Dir: '/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3f889/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3f889.dir/build.make CMakeFiles/cmTC_3f889.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cdf8d/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cdf8d.dir/build.make CMakeFiles/cmTC_cdf8d.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-TeFgyJ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-K53SmI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1629,13 +1576,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_3f889]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f889.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_cdf8d]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf8d.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_3f889 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_cdf8d -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1650,12 +1597,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3f889] ==> ignore
+          arg [cmTC_cdf8d] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_3f889.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_cdf8d.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1696,8 +1643,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta"
-      binary: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta"
+      source: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn"
+      binary: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1710,18 +1657,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta'
+        Change Dir: '/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1287/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1287.dir/build.make CMakeFiles/cmTC_c1287.dir/build
-        Building CXX object CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd9e0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd9e0.dir/build.make CMakeFiles/cmTC_dd9e0.dir/build
+        Building CXX object CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1734,13 +1681,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_c1287
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1287.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_dd9e0
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9e0.dir/link.txt --verbose=1
         Apple clang version 15.0.0 (clang-1500.1.0.2.5)
         Target: arm64-apple-darwin23.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c1287 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_dd9e0 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld  PROJECT:dyld-1022.1
         BUILD 13:21:42 Nov 10 2023
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
@@ -1750,7 +1697,7 @@ events:
         Library search paths:
         	/usr/local/lib
         Framework search paths:
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c1287
+        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_dd9e0
         
       exitCode: 0
   -
@@ -1796,18 +1743,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta']
+        ignore line: [Change Dir: '/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c1287/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1287.dir/build.make CMakeFiles/cmTC_c1287.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd9e0/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dd9e0.dir/build.make CMakeFiles/cmTC_dd9e0.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-SQshta -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-Nng3cn -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target arm64-apple-darwin23.2.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1820,13 +1767,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_c1287]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1287.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_dd9e0]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd9e0.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
         ignore line: [Target: arm64-apple-darwin23.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c1287 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_dd9e0 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1841,12 +1788,12 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c1287] ==> ignore
+          arg [cmTC_dd9e0] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c1287.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_dd9e0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1899,8 +1846,10 @@ events:
       - "OpenGL"
       - "GL"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -1913,9 +1862,7 @@ events:
       - "/opt/X11/bin/"
       - "/usr/local/share/dotnet/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -1935,8 +1882,10 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -1953,13 +1902,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2006,8 +1950,10 @@ events:
       - "OpenGL"
       - "GLU"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -2020,9 +1966,7 @@ events:
       - "/opt/X11/bin/"
       - "/usr/local/share/dotnet/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/lib/"
@@ -2042,8 +1986,10 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2060,13 +2006,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2113,8 +2054,10 @@ events:
       - "OpenGL/gl.h"
       - "GL/gl.h"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -2131,10 +2074,8 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2164,8 +2105,10 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/gl.h"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/gl.h"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/OpenGL.framework/Headers/gl.h"
+      - "/Users/shaoanwang/.deno/bin/OpenGL.framework/Headers/gl.h"
+      - "/Users/shaoanwang/anaconda3/bin/OpenGL.framework/Headers/gl.h"
+      - "/Users/shaoanwang/anaconda3/condabin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/OpenGL.framework/Headers/gl.h"
@@ -2182,10 +2125,8 @@ events:
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/gl.h"
       - "/Users/shaoanwang/.dotnet/tools/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/OpenGL.framework/Headers/gl.h"
-      - "/Users/shaoanwang/.deno/bin/OpenGL.framework/Headers/gl.h"
-      - "/Users/shaoanwang/anaconda3/bin/OpenGL.framework/Headers/gl.h"
-      - "/Users/shaoanwang/anaconda3/condabin/OpenGL.framework/Headers/gl.h"
       - "/Users/shaoanwang/share/dotnet/OpenGL.framework/Headers/gl.h"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/gl.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/gl.h"
@@ -2212,8 +2153,10 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2230,13 +2173,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2283,8 +2221,10 @@ events:
       - "OpenGL/glu.h"
       - "GL/glu.h"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -2301,10 +2241,8 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
       - "/opt/homebrew/include/"
@@ -2334,8 +2272,10 @@ events:
       - "/Network/Library/Frameworks/"
       - "/System/Library/Frameworks/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/OpenGL.framework/Headers/glu.h"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/OpenGL.framework/Headers/glu.h"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/OpenGL.framework/Headers/glu.h"
+      - "/Users/shaoanwang/.deno/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/shaoanwang/anaconda3/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/shaoanwang/anaconda3/condabin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/sbin/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/OpenGL.framework/Headers/glu.h"
@@ -2352,10 +2292,8 @@ events:
       - "/usr/local/share/dotnet/OpenGL.framework/Headers/glu.h"
       - "/Users/shaoanwang/.dotnet/tools/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/OpenGL.framework/Headers/glu.h"
-      - "/Users/shaoanwang/.deno/bin/OpenGL.framework/Headers/glu.h"
-      - "/Users/shaoanwang/anaconda3/bin/OpenGL.framework/Headers/glu.h"
-      - "/Users/shaoanwang/anaconda3/condabin/OpenGL.framework/Headers/glu.h"
       - "/Users/shaoanwang/share/dotnet/OpenGL.framework/Headers/glu.h"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/OpenGL.framework/Headers/glu.h"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/include/OpenGL.framework/Headers/glu.h"
@@ -2382,8 +2320,10 @@ events:
     found: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2400,13 +2340,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2447,8 +2382,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-QoY741"
-      binary: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-QoY741"
+      source: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-y4t4aD"
+      binary: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-y4t4aD"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -2460,15 +2395,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-QoY741'
+        Change Dir: '/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-y4t4aD'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4ff5/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4ff5.dir/build.make CMakeFiles/cmTC_e4ff5.dir/build
-        Building C object CMakeFiles/cmTC_e4ff5.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -MD -MT CMakeFiles/cmTC_e4ff5.dir/src.c.o -MF CMakeFiles/cmTC_e4ff5.dir/src.c.o.d -o CMakeFiles/cmTC_e4ff5.dir/src.c.o -c /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/CMakeScratch/TryCompile-QoY741/src.c
-        Linking C executable cmTC_e4ff5
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4ff5.dir/link.txt --verbose=1
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e4ff5.dir/src.c.o -o cmTC_e4ff5
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2deea/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2deea.dir/build.make CMakeFiles/cmTC_2deea.dir/build
+        Building C object CMakeFiles/cmTC_2deea.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_2deea.dir/src.c.o -MF CMakeFiles/cmTC_2deea.dir/src.c.o.d -o CMakeFiles/cmTC_2deea.dir/src.c.o -c /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/CMakeScratch/TryCompile-y4t4aD/src.c
+        Linking C executable cmTC_2deea
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2deea.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2deea.dir/src.c.o -o cmTC_2deea
         
       exitCode: 0
   -
@@ -2507,27 +2442,43 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        path: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        path: "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glfw3Config.cmake"
+        path: "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/glfw3-config.cmake"
+        path: "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glfw3Config.cmake"
+        path: "/Users/shaoanwang/.deno/glfw3Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/glfw3-config.cmake"
+        path: "/Users/shaoanwang/.deno/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/shaoanwang/anaconda3/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/shaoanwang/anaconda3/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/shaoanwang/anaconda3/condabin/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/shaoanwang/anaconda3/condabin/glfw3-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2544,8 +2495,10 @@ events:
       version: "3.4.0"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2562,13 +2515,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2612,8 +2560,10 @@ events:
     names:
       - "git"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -2630,10 +2580,8 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -2666,8 +2614,10 @@ events:
       - "/Users/shaoanwang/Applications/"
       - "/Applications/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/git"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/git"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/git"
+      - "/Users/shaoanwang/.deno/bin/git"
+      - "/Users/shaoanwang/anaconda3/bin/git"
+      - "/Users/shaoanwang/anaconda3/condabin/git"
       - "/opt/homebrew/bin/git"
       - "/opt/homebrew/sbin/git"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/git"
@@ -2676,8 +2626,10 @@ events:
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -2694,13 +2646,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2742,8 +2689,10 @@ events:
       - "cuda-memcheck"
       - "compute-sanitizer"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -2760,10 +2709,8 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -2796,8 +2743,10 @@ events:
       - "/Users/shaoanwang/Applications/"
       - "/Applications/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/purify"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/purify"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/purify"
+      - "/Users/shaoanwang/.deno/bin/purify"
+      - "/Users/shaoanwang/anaconda3/bin/purify"
+      - "/Users/shaoanwang/anaconda3/condabin/purify"
       - "/opt/homebrew/bin/purify"
       - "/opt/homebrew/sbin/purify"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/purify"
@@ -2814,10 +2763,8 @@ events:
       - "/usr/local/share/dotnet/purify"
       - "/Users/shaoanwang/.dotnet/tools/purify"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/purify"
-      - "/Users/shaoanwang/.deno/bin/purify"
-      - "/Users/shaoanwang/anaconda3/bin/purify"
-      - "/Users/shaoanwang/anaconda3/condabin/purify"
       - "/Users/shaoanwang/share/dotnet/purify"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/purify"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/purify"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/purify"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/purify"
@@ -2849,8 +2796,10 @@ events:
       - "/opt/local/purify"
       - "/Users/shaoanwang/Applications/purify"
       - "/Applications/purify"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/valgrind"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/valgrind"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/valgrind"
+      - "/Users/shaoanwang/.deno/bin/valgrind"
+      - "/Users/shaoanwang/anaconda3/bin/valgrind"
+      - "/Users/shaoanwang/anaconda3/condabin/valgrind"
       - "/opt/homebrew/bin/valgrind"
       - "/opt/homebrew/sbin/valgrind"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/valgrind"
@@ -2867,10 +2816,8 @@ events:
       - "/usr/local/share/dotnet/valgrind"
       - "/Users/shaoanwang/.dotnet/tools/valgrind"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/valgrind"
-      - "/Users/shaoanwang/.deno/bin/valgrind"
-      - "/Users/shaoanwang/anaconda3/bin/valgrind"
-      - "/Users/shaoanwang/anaconda3/condabin/valgrind"
       - "/Users/shaoanwang/share/dotnet/valgrind"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/valgrind"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/valgrind"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/valgrind"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/valgrind"
@@ -2902,8 +2849,10 @@ events:
       - "/opt/local/valgrind"
       - "/Users/shaoanwang/Applications/valgrind"
       - "/Applications/valgrind"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/boundscheck"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/boundscheck"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/boundscheck"
+      - "/Users/shaoanwang/.deno/bin/boundscheck"
+      - "/Users/shaoanwang/anaconda3/bin/boundscheck"
+      - "/Users/shaoanwang/anaconda3/condabin/boundscheck"
       - "/opt/homebrew/bin/boundscheck"
       - "/opt/homebrew/sbin/boundscheck"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/boundscheck"
@@ -2920,10 +2869,8 @@ events:
       - "/usr/local/share/dotnet/boundscheck"
       - "/Users/shaoanwang/.dotnet/tools/boundscheck"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/boundscheck"
-      - "/Users/shaoanwang/.deno/bin/boundscheck"
-      - "/Users/shaoanwang/anaconda3/bin/boundscheck"
-      - "/Users/shaoanwang/anaconda3/condabin/boundscheck"
       - "/Users/shaoanwang/share/dotnet/boundscheck"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/boundscheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/boundscheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/boundscheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/boundscheck"
@@ -2955,8 +2902,10 @@ events:
       - "/opt/local/boundscheck"
       - "/Users/shaoanwang/Applications/boundscheck"
       - "/Applications/boundscheck"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/drmemory"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/drmemory"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/drmemory"
+      - "/Users/shaoanwang/.deno/bin/drmemory"
+      - "/Users/shaoanwang/anaconda3/bin/drmemory"
+      - "/Users/shaoanwang/anaconda3/condabin/drmemory"
       - "/opt/homebrew/bin/drmemory"
       - "/opt/homebrew/sbin/drmemory"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/drmemory"
@@ -2973,10 +2922,8 @@ events:
       - "/usr/local/share/dotnet/drmemory"
       - "/Users/shaoanwang/.dotnet/tools/drmemory"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/drmemory"
-      - "/Users/shaoanwang/.deno/bin/drmemory"
-      - "/Users/shaoanwang/anaconda3/bin/drmemory"
-      - "/Users/shaoanwang/anaconda3/condabin/drmemory"
       - "/Users/shaoanwang/share/dotnet/drmemory"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/drmemory"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/drmemory"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/drmemory"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/drmemory"
@@ -3008,8 +2955,10 @@ events:
       - "/opt/local/drmemory"
       - "/Users/shaoanwang/Applications/drmemory"
       - "/Applications/drmemory"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/cuda-memcheck"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/cuda-memcheck"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/cuda-memcheck"
+      - "/Users/shaoanwang/.deno/bin/cuda-memcheck"
+      - "/Users/shaoanwang/anaconda3/bin/cuda-memcheck"
+      - "/Users/shaoanwang/anaconda3/condabin/cuda-memcheck"
       - "/opt/homebrew/bin/cuda-memcheck"
       - "/opt/homebrew/sbin/cuda-memcheck"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/cuda-memcheck"
@@ -3026,10 +2975,8 @@ events:
       - "/usr/local/share/dotnet/cuda-memcheck"
       - "/Users/shaoanwang/.dotnet/tools/cuda-memcheck"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/cuda-memcheck"
-      - "/Users/shaoanwang/.deno/bin/cuda-memcheck"
-      - "/Users/shaoanwang/anaconda3/bin/cuda-memcheck"
-      - "/Users/shaoanwang/anaconda3/condabin/cuda-memcheck"
       - "/Users/shaoanwang/share/dotnet/cuda-memcheck"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/cuda-memcheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/cuda-memcheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/cuda-memcheck"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/cuda-memcheck"
@@ -3061,8 +3008,10 @@ events:
       - "/opt/local/cuda-memcheck"
       - "/Users/shaoanwang/Applications/cuda-memcheck"
       - "/Applications/cuda-memcheck"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/compute-sanitizer"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/compute-sanitizer"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/compute-sanitizer"
+      - "/Users/shaoanwang/.deno/bin/compute-sanitizer"
+      - "/Users/shaoanwang/anaconda3/bin/compute-sanitizer"
+      - "/Users/shaoanwang/anaconda3/condabin/compute-sanitizer"
       - "/opt/homebrew/bin/compute-sanitizer"
       - "/opt/homebrew/sbin/compute-sanitizer"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/compute-sanitizer"
@@ -3079,10 +3028,8 @@ events:
       - "/usr/local/share/dotnet/compute-sanitizer"
       - "/Users/shaoanwang/.dotnet/tools/compute-sanitizer"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/compute-sanitizer"
-      - "/Users/shaoanwang/.deno/bin/compute-sanitizer"
-      - "/Users/shaoanwang/anaconda3/bin/compute-sanitizer"
-      - "/Users/shaoanwang/anaconda3/condabin/compute-sanitizer"
       - "/Users/shaoanwang/share/dotnet/compute-sanitizer"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/compute-sanitizer"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/compute-sanitizer"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/compute-sanitizer"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/compute-sanitizer"
@@ -3117,8 +3064,10 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -3135,13 +3084,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3178,8 +3122,10 @@ events:
     names:
       - "gcov"
     candidate_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/"
+      - "/Users/shaoanwang/.deno/bin/"
+      - "/Users/shaoanwang/anaconda3/bin/"
+      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
@@ -3196,10 +3142,8 @@ events:
       - "/usr/local/share/dotnet/"
       - "/Users/shaoanwang/.dotnet/tools/"
       - "/Library/Frameworks/Mono.framework/Versions/Current/Commands/"
-      - "/Users/shaoanwang/.deno/bin/"
-      - "/Users/shaoanwang/anaconda3/bin/"
-      - "/Users/shaoanwang/anaconda3/condabin/"
       - "/Users/shaoanwang/share/dotnet/"
+      - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/bin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/sbin/"
       - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
@@ -3232,8 +3176,10 @@ events:
       - "/Users/shaoanwang/Applications/"
       - "/Applications/"
     searched_directories:
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gcov"
-      - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gcov"
+      - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj/gcov"
+      - "/Users/shaoanwang/.deno/bin/gcov"
+      - "/Users/shaoanwang/anaconda3/bin/gcov"
+      - "/Users/shaoanwang/anaconda3/condabin/gcov"
       - "/opt/homebrew/bin/gcov"
       - "/opt/homebrew/sbin/gcov"
       - "/Library/Frameworks/Python.framework/Versions/3.11/bin/gcov"
@@ -3242,8 +3188,10 @@ events:
     found: "/usr/bin/gcov"
     search_context:
       ENV{PATH}:
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/shaoanwang/.codex/tmp/arg0/codex-arg0dMiNBj"
+        - "/Users/shaoanwang/.deno/bin"
+        - "/Users/shaoanwang/anaconda3/bin"
+        - "/Users/shaoanwang/anaconda3/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
@@ -3260,13 +3208,8 @@ events:
         - "/usr/local/share/dotnet"
         - "~/.dotnet/tools"
         - "/Library/Frameworks/Mono.framework/Versions/Current/Commands"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
-        - "/Users/shaoanwang/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/shaoanwang/.deno/bin"
-        - "/Users/shaoanwang/anaconda3/bin"
-        - "/Users/shaoanwang/anaconda3/condabin"
         - "/Users/shaoanwang/share/dotnet"
-        - "/Users/shaoanwang/share/dotnet"
+        - "/Users/shaoanwang/.vscode/extensions/openai.chatgpt-0.4.76-darwin-arm64/bin/macos-aarch64"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

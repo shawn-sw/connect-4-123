@@ -64,7 +64,6 @@ add_executable(demo Application.cpp
                           classes/Checkers.cpp
                           classes/Othello.cpp
                           classes/Connect4.cpp
-                          classes/Connect4vsPlayer.cpp
                           ${BCKD_FILE}
                           ${MAIN_FILE}
                           ${IMPL_FILE}

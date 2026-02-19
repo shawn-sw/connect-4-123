@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.2.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/Users/shaoanwang/Desktop/connect-4-123-1")
-set(CTEST_BINARY_DIRECTORY "/Users/shaoanwang/Desktop/connect-4-123-1/build")
+set(CTEST_SOURCE_DIRECTORY "/Users/shaoanwang/Desktop/cmpm123/connect-4-123")
+set(CTEST_BINARY_DIRECTORY "/Users/shaoanwang/Desktop/cmpm123/connect-4-123/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "/usr/bin/git")

@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_draw.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_draw.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -87,7 +87,7 @@ CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_internal.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_internal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -240,5 +240,5 @@ CMakeFiles/demo.dir/imgui/imgui_draw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imstb_rectpack.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imstb_truetype.h
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imstb_rectpack.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imstb_truetype.h

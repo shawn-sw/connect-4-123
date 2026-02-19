@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/shaoanwang/Desktop/connect-4-123-1
+CMAKE_SOURCE_DIR = /Users/shaoanwang/Desktop/cmpm123/connect-4-123
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/shaoanwang/Desktop/connect-4-123-1/build
+CMAKE_BINARY_DIR = /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build
 
 # Utility rule file for ExperimentalTest.
 
@@ -85,6 +85,6 @@ CMakeFiles/ExperimentalTest.dir/clean:
 .PHONY : CMakeFiles/ExperimentalTest.dir/clean
 
 CMakeFiles/ExperimentalTest.dir/depend:
-	cd /Users/shaoanwang/Desktop/connect-4-123-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shaoanwang/Desktop/connect-4-123-1 /Users/shaoanwang/Desktop/connect-4-123-1 /Users/shaoanwang/Desktop/connect-4-123-1/build /Users/shaoanwang/Desktop/connect-4-123-1/build /Users/shaoanwang/Desktop/connect-4-123-1/build/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalTest
+	cd /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shaoanwang/Desktop/cmpm123/connect-4-123 /Users/shaoanwang/Desktop/cmpm123/connect-4-123 /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build /Users/shaoanwang/Desktop/cmpm123/connect-4-123/build/CMakeFiles/ExperimentalTest.dir/DependInfo.cmake "--color=$(COLOR)" ExperimentalTest
 .PHONY : CMakeFiles/ExperimentalTest.dir/depend
 

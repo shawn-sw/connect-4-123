@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_impl_opengl3.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_impl_opengl3.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -87,7 +87,7 @@ CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_impl_opengl3.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -97,7 +97,7 @@ CMakeFiles/demo.dir/imgui/imgui_impl_opengl3.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_impl_opengl3_loader.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_impl_opengl3_loader.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h

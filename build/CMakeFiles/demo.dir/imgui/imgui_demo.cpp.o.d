@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_demo.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_demo.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_demo.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

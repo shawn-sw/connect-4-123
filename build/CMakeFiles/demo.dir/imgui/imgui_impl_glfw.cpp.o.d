@@ -1,7 +1,7 @@
 CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_impl_glfw.cpp \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imconfig.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_impl_glfw.cpp \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -87,7 +87,7 @@ CMakeFiles/demo.dir/imgui/imgui_impl_glfw.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/shaoanwang/Desktop/connect-4-123-1/imgui/imgui_impl_glfw.h \
+  /Users/shaoanwang/Desktop/cmpm123/connect-4-123/imgui/imgui_impl_glfw.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \

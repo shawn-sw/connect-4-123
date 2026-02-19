@@ -6,7 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
 
-CXX_FLAGSarm64 = -std=gnu++20 -arch arm64
-
-CXX_FLAGS = -std=gnu++20 -arch arm64
+CXX_FLAGS = -std=gnu++20
 

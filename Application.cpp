@@ -4,7 +4,7 @@
 #include "classes/Checkers.h"
 #include "classes/Othello.h"
 #include "classes/Connect4.h"
-#include "classes/Connect4vsPlayer.h"
+#include <string>
 
 namespace ClassGame {
         //
@@ -12,7 +12,7 @@ namespace ClassGame {
         //
         Game *game = nullptr;
         bool gameOver = false;
-        int gameWinner = -1;
+        std::string gameWinner = "";
 
         //
         // game starting point
@@ -37,12 +37,12 @@ namespace ClassGame {
 
                 if (gameOver) {
                     ImGui::Text("Game Over!");
-                    ImGui::Text("Winner: %d", gameWinner);
+                    ImGui::Text("Winner: %s", gameWinner.c_str());
                     if (ImGui::Button("Reset Game")) {
                         game->stopGame();
                         game->setUpBoard();
                         gameOver = false;
-                        gameWinner = -1;
+                        gameWinner = "";
                     }
                 }
 
@@ -52,13 +52,13 @@ namespace ClassGame {
                         game->stopGame();
                         game->setUpBoard();
                         gameOver = false;
-                        gameWinner = -1;
+                        gameWinner = "";
                     }
                     if (ImGui::Button("Quit")) {
                         delete game;
                         game = nullptr;
                         gameOver = false;
-                        gameWinner = -1;
+                        gameWinner = "";
                     }
                 }
 
@@ -76,12 +76,16 @@ namespace ClassGame {
                         game = new Othello();
                         game->setUpBoard();
                     }
-                    if (ImGui::Button("Start Connect 4 vs AI")) {
+                    if (ImGui::Button("Start Connect 4 vs AI (AI as Yellow)")) {
                         game = new Connect4();
                         game->setUpBoard();
                     }
+                    if (ImGui::Button("Start Connect 4 vs AI (AI as Red)")) {
+                        game = new Connect4(true, 0);
+                        game->setUpBoard();
+                    }
                     if (ImGui::Button("Start Connect 4 vs Player")) {
-                        game = new Connect4vsPlayer();
+                        game = new Connect4(false);
                         game->setUpBoard();
                     }
                 } else {
@@ -118,11 +122,11 @@ namespace ClassGame {
             if (winner)
             {
                 gameOver = true;
-                gameWinner = winner->playerNumber();
+                gameWinner = winner->playerNumber() == 0 ? "red" : "yellow";
             }
             if (game->checkForDraw()) {
                 gameOver = true;
-                gameWinner = -1;
+                gameWinner = "draw";
             }
         }
 }
