@@ -1,5 +1,6 @@
 #pragma once
 #include "Game.h"
+#include <vector>
 
 // Connect Four implementation
 class Connect4 : public Game
@@ -28,6 +29,7 @@ private:
     int         currentPlayer();
     int         findBestMove(int depth, int aiPlayer);
     bool        dropInColumn(int column);
+    std::vector<int> snapshotBoard() const;
 
     Bit*        PieceForPlayer(int playerNumber);
     bool        dropPieceAtColumn(int column);

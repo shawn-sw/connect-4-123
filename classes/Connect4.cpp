@@ -60,6 +60,51 @@ bool hasFourInARow(const std::vector<int> &board, int width, int height, int pla
     return false;
 }
 
+struct BoardOutcome {
+    int winnerToken; // 0 = none, 1/2 = player token
+    bool draw;
+};
+
+BoardOutcome evaluateBoardOutcome(const std::vector<int> &board, int width, int height)
+{
+    bool full = true;
+    const int dirs[4][2] = {{1, 0}, {0, 1}, {1, 1}, {1, -1}};
+
+    for (int y = 0; y < height; y++) {
+        for (int x = 0; x < width; x++) {
+            const int token = board[boardIndex(x, y, width)];
+            if (token == 0) {
+                full = false;
+                continue;
+            }
+
+            for (int di = 0; di < 4; di++) {
+                int nx = x;
+                int ny = y;
+                int count = 1;
+                const int dx = dirs[di][0];
+                const int dy = dirs[di][1];
+                for (int k = 1; k < 4; k++) {
+                    nx += dx;
+                    ny += dy;
+                    if (nx < 0 || nx >= width || ny < 0 || ny >= height) {
+                        break;
+                    }
+                    if (board[boardIndex(nx, ny, width)] != token) {
+                        break;
+                    }
+                    count++;
+                }
+                if (count >= 4) {
+                    return {token, false};
+                }
+            }
+        }
+    }
+
+    return {0, full};
+}
+
 int getDropRow(const std::vector<int> &board, int width, int height, int column)
 {
     for (int row = height - 1; row >= 0; row--) {
@@ -103,41 +148,52 @@ int evaluateBoardState(const std::vector<int> &board, int width, int height, int
     }
     return score;
 }
-
-int minimax(const std::vector<int> &board, int width, int height, int depth, int turnPlayer, int aiPlayer, int alpha, int beta)
+int negamax(const std::vector<int> &board,
+            int width, int height,
+            int depth,
+            int turnPlayer,
+            int aiPlayer,
+            int alpha, int beta)
 {
     const int opponent = nextPlayerNumber(aiPlayer);
-    if (depth == 0 || hasFourInARow(board, width, height, aiPlayer) || hasFourInARow(board, width, height, opponent) || boardFull(board)) {
-        return evaluateBoardState(board, width, height, aiPlayer);
+
+    // terminal / cutoff
+    if (depth == 0 ||
+        hasFourInARow(board, width, height, turnPlayer) ||
+        hasFourInARow(board, width, height, opponent) ||
+        boardFull(board)) {
+        return evaluateBoardState(board, width, height, turnPlayer);
     }
 
-    const bool maximizing = (turnPlayer == aiPlayer);
-    int bestScore = maximizing ? std::numeric_limits<int>::min() : std::numeric_limits<int>::max();
+    int best = std::numeric_limits<int>::min();
+    bool foundMove = false;
 
     for (int col = 0; col < width; col++) {
         std::vector<int> nextBoard = board;
         if (!applyMove(nextBoard, width, height, col, turnPlayer)) {
             continue;
         }
+        foundMove = true;
 
-        int score = minimax(nextBoard, width, height, depth - 1, nextPlayerNumber(turnPlayer), aiPlayer, alpha, beta);
-        if (maximizing) {
-            bestScore = std::max(bestScore, score);
-            alpha = std::max(alpha, bestScore);
-        } else {
-            bestScore = std::min(bestScore, score);
-            beta = std::min(beta, bestScore);
-        }
-        if (beta <= alpha) {
-            break;
-        }
+        // Negamax: score = - negamax(next, otherTurn, -beta, -alpha)
+        int score = -negamax(nextBoard,
+                             width, height,
+                             depth - 1,
+                             nextPlayerNumber(turnPlayer),
+                             aiPlayer,
+                             -beta, -alpha);
+
+        best = std::max(best, score);
+        alpha = std::max(alpha, best);
+        if (alpha >= beta) break; // alpha-beta cutoff
     }
 
-    if (bestScore == std::numeric_limits<int>::min() || bestScore == std::numeric_limits<int>::max()) {
+    if (!foundMove) {
         return evaluateBoardState(board, width, height, aiPlayer);
     }
-    return bestScore;
+    return best;
 }
+
 }
 
 Connect4::Connect4(bool enableAI, int aiPlayerNumber)
@@ -193,7 +249,7 @@ int Connect4::currentPlayer()
     return _players.at(_gameOptions.currentTurnNo & 1)->playerNumber();
 }
 
-int Connect4::findBestMove(int depth, int aiPlayer)
+std::vector<int> Connect4::snapshotBoard() const
 {
     std::vector<int> board(WIDTH * HEIGHT, 0);
     for (int y = 0; y < HEIGHT; y++) {
@@ -204,6 +260,12 @@ int Connect4::findBestMove(int depth, int aiPlayer)
             }
         }
     }
+    return board;
+}
+
+int Connect4::findBestMove(int depth, int aiPlayer)
+{
+    std::vector<int> board = snapshotBoard();
 
     int bestCol = -1;
     int bestScore = std::numeric_limits<int>::min();
@@ -212,7 +274,7 @@ int Connect4::findBestMove(int depth, int aiPlayer)
         if (!applyMove(nextBoard, WIDTH, HEIGHT, col, aiPlayer)) {
             continue;
         }
-        int score = minimax(
+        int score = -negamax(
             nextBoard,
             WIDTH,
             HEIGHT,
@@ -280,49 +342,19 @@ Player* Connect4::ownerAt(int x, int y) const
 
 Player* Connect4::checkForWinner()
 {
-    // look for four in a row in any direction
-    for (int y = 0; y < HEIGHT; y++) {
-        for (int x = 0; x < WIDTH; x++) {
-            Player *p = ownerAt(x, y);
-            if (!p)
-                continue;
-
-            const int dirs[4][2] = {{1,0}, {0,1}, {1,1}, {1,-1}};
-            for (int di = 0; di < 4; di++) {
-                int dx = dirs[di][0];
-                int dy = dirs[di][1];
-                int count = 1;
-                int nx = x;
-                int ny = y;
-                for (int k = 1; k < 4; k++) {
-                    nx += dx;
-                    ny += dy;
-                    if (nx < 0 || nx >= WIDTH || ny < 0 || ny >= HEIGHT)
-                        break;
-                    Player *p2 = ownerAt(nx, ny);
-                    if (p2 == p)
-                        count++;
-                    else
-                        break;
-                }
-                if (count >= 4)
-                    return p;
-            }
-        }
+    const std::vector<int> board = snapshotBoard();
+    const BoardOutcome outcome = evaluateBoardOutcome(board, WIDTH, HEIGHT);
+    if (outcome.winnerToken > 0) {
+        return getPlayerAt(outcome.winnerToken - 1);
     }
     return nullptr;
 }
 
 bool Connect4::checkForDraw()
 {
-    bool full = true;
-    _grid->forEachSquare([&full](ChessSquare *square, int x, int y) {
-        if (!square->bit())
-            full = false;
-    });
-    if (full && !checkForWinner())
-        return true;
-    return false;
+    const std::vector<int> board = snapshotBoard();
+    const BoardOutcome outcome = evaluateBoardOutcome(board, WIDTH, HEIGHT);
+    return outcome.draw;
 }
 
 void Connect4::stopGame()
@@ -376,8 +408,8 @@ void Connect4::updateAI()
     if (!isAITurn())
         return;
 
-    int aiPlayer = currentPlayer();
-    int bestCol = findBestMove(DEPTH, aiPlayer);
+    int turnPlayer = currentPlayer();
+    int bestCol = findBestMove(DEPTH, turnPlayer);
     if (bestCol >= 0) {
         dropInColumn(bestCol);
     }
